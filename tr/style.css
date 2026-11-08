@@ -499,6 +499,16 @@
     outline-offset: 2px;
   }
 
+  
+  @media (prefers-color-scheme: dark) {
+    .h0001-body-logo:not([src*="acik"]) {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
+
 
   .b0000-hero2 {
     position: relative;
