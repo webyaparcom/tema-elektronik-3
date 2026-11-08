@@ -1,0 +1,39 @@
+{
+  "id": "x42kr84q6j",
+  "name": {
+    "tr": "Ses",
+    "en": "Audio",
+    "ar": "الصوت"
+  },
+  "description": {
+    "tr": "Ses",
+    "en": "Audio",
+    "ar": "الصوت"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "ses",
+  "icon": "headphones",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "fa3ozb"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Ses",
+    "en": "Audio",
+    "ar": "الصوت"
+  },
+  "date": "2026-11-05T23:18:16.926Z",
+  "update": "2026-11-05T23:44:17.819Z"
+}

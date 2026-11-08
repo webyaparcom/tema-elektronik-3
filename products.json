@@ -1,0 +1,267 @@
+{
+  "data": [
+    {
+      "id": "yk75vtjt6f",
+      "name": {
+        "tr": "Uzatılmış garanti +1 yıl",
+        "en": "Extended warranty +1 year",
+        "ar": "ضمان ممتد +1 سنة"
+      },
+      "description": {
+        "tr": "2 yıllık garantinin bitiminden sonra 1 yıl ek servis güvencesi; dizüstü ve akıllı saat için.",
+        "en": "One extra year of service cover after the 2-year warranty ends; for laptops and smartwatches.",
+        "ar": "سنة إضافية من تغطية الخدمة بعد انتهاء ضمان السنتين؛ للحواسيب المحمولة والساعات الذكية."
+      },
+      "path": "uzatilmis-garanti-1-yil",
+      "icon": "verified",
+      "category": "bilgisayar",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "s0vb7s"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "pp8pc2lu97",
+      "name": {
+        "tr": "Akıllı bileklik",
+        "en": "Fitness band",
+        "ar": "سوار لياقة ذكي"
+      },
+      "description": {
+        "tr": "İnce gövde, nabız ve uyku takibi, bildirim titreşimi; suya dayanıklı.",
+        "en": "Slim body, heart-rate and sleep tracking, notification vibration; water resistant.",
+        "ar": "هيكل نحيف وتتبّع النبض والنوم واهتزاز للإشعارات؛ مقاوم للماء."
+      },
+      "path": "akilli-bileklik",
+      "icon": "watch",
+      "category": "giyilebilir",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "9sla6s"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "yh6gl0snn4",
+      "name": {
+        "tr": "Ses seti: kulaklık + hoparlör",
+        "en": "Audio set: headphones + speaker",
+        "ar": "طقم صوت: سماعات + مكبر صوت"
+      },
+      "description": {
+        "tr": "Kablosuz kulaklık ile taşınabilir hoparlör bir arada; tek kutuda, ayrı alıma göre avantajlı.",
+        "en": "Wireless headphones and a portable speaker together in one box, better value than buying separately.",
+        "ar": "سماعات لاسلكية ومكبر صوت محمول معًا في علبة واحدة، بسعر أفضل من الشراء المنفصل."
+      },
+      "path": "ses-seti-kulaklik-hoparlor",
+      "icon": "speaker",
+      "category": "ses",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "8tirws"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "2yzx22qd1n",
+      "name": {
+        "tr": "Mekanik klavye",
+        "en": "Mechanical keyboard",
+        "ar": "لوحة مفاتيح ميكانيكية"
+      },
+      "description": {
+        "tr": "Kompakt 75% düzen, sessiz anahtarlar, kablolu ve kablosuz kullanım.",
+        "en": "Compact 75% layout, quiet switches, wired and wireless use.",
+        "ar": "تخطيط مدمج 75٪ ومفاتيح هادئة واستخدام سلكي ولاسلكي."
+      },
+      "path": "mekanik-klavye",
+      "icon": "inventory_2",
+      "category": "bilgisayar",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "hv964x"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "veosscnnph",
+      "name": {
+        "tr": "Powerbank 20.000 mAh",
+        "en": "Power bank 20,000 mAh",
+        "ar": "شاحن متنقل 20,000 مللي أمبير"
+      },
+      "description": {
+        "tr": "65 W hızlı şarj, iki USB-C çıkışı, dizüstüyü de şarj eder.",
+        "en": "65 W fast charging, two USB-C ports, also charges laptops.",
+        "ar": "شحن سريع 65 واط ومنفذان USB-C ويشحن الحواسيب المحمولة أيضًا."
+      },
+      "path": "powerbank-20000",
+      "icon": "inventory_2",
+      "category": "bilgisayar",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "gpco73"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "d5kzdhlaq4",
+      "name": {
+        "tr": "İnce dizüstü bilgisayar 14\"",
+        "en": "Slim laptop 14\"",
+        "ar": "حاسوب محمول نحيف 14 بوصة"
+      },
+      "description": {
+        "tr": "14 inç IPS ekran, 16 GB bellek, 512 GB SSD; günlük iş ve eğitim için.",
+        "en": "14-inch IPS display, 16 GB memory, 512 GB SSD; for everyday work and study.",
+        "ar": "شاشة IPS 14 بوصة وذاكرة 16 جيجابايت وSSD 512 جيجابايت؛ للعمل والدراسة اليومية."
+      },
+      "path": "ince-dizustu-bilgisayar",
+      "icon": "inventory_2",
+      "category": "bilgisayar",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "ms1u9m"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "yzluqi3utm",
+      "name": {
+        "tr": "Akıllı saat",
+        "en": "Smartwatch",
+        "ar": "ساعة ذكية"
+      },
+      "description": {
+        "tr": "AMOLED ekran, adım ve uyku takibi, 5 ATM suya dayanıklılık.",
+        "en": "AMOLED display, step and sleep tracking, 5 ATM water resistance.",
+        "ar": "شاشة AMOLED وتتبّع الخطوات والنوم ومقاومة ماء 5 ATM."
+      },
+      "path": "akilli-saat",
+      "icon": "inventory_2",
+      "category": "giyilebilir",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "m4dmzh"
+        ],
+        "footer": []
+      },
+      "index": 6
+    },
+    {
+      "id": "dd0vezagvc",
+      "name": {
+        "tr": "Taşınabilir hoparlör",
+        "en": "Portable speaker",
+        "ar": "مكبر صوت محمول"
+      },
+      "description": {
+        "tr": "Suya dayanıklı gövde, 360° ses, USB-C şarj.",
+        "en": "Water-resistant body, 360° sound, USB-C charging.",
+        "ar": "هيكل مقاوم للماء وصوت 360° وشحن USB-C."
+      },
+      "path": "tasinabilir-hoparlor",
+      "icon": "inventory_2",
+      "category": "ses",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "3l6t61"
+        ],
+        "footer": []
+      },
+      "index": 7
+    },
+    {
+      "id": "lztuhvhokj",
+      "name": {
+        "tr": "Kablosuz kulaklık",
+        "en": "Wireless headphones",
+        "ar": "سماعات لاسلكية"
+      },
+      "description": {
+        "tr": "Aktif gürültü engelleme, kulak üstü, katlanabilir tasarım.",
+        "en": "Active noise cancelling, over-ear, foldable design.",
+        "ar": "عزل ضوضاء نشط وتصميم فوق الأذن قابل للطي."
+      },
+      "path": "kablosuz-kulaklik",
+      "icon": "inventory_2",
+      "category": "ses",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "hmytk5"
+        ],
+        "footer": []
+      },
+      "index": 8
+    }
+  ],
+  "desc": [
+    {
+      "path": "garanti",
+      "name": {
+        "tr": "Garanti",
+        "en": "Warranty",
+        "ar": "الضمان"
+      }
+    },
+    {
+      "path": "baglanti",
+      "name": {
+        "tr": "Bağlantı",
+        "en": "Connectivity",
+        "ar": "الاتصال"
+      }
+    },
+    {
+      "path": "guc",
+      "name": {
+        "tr": "Pil / güç",
+        "en": "Battery / power",
+        "ar": "البطارية / الطاقة"
+      }
+    }
+  ],
+  "desing": {
+    "header": [],
+    "body": [
+      "7yddiv"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true,
+    "bgimg": true,
+    "detail": true
+  }
+}
