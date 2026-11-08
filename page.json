@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "id": "ag71mnwlhb",
+      "name": {
+        "tr": "Ürünler",
+        "en": "Products",
+        "ar": "المنتجات"
+      },
+      "description": {
+        "tr": "Ses, giyilebilir teknoloji, bilgisayar ve aksesuar ürünleri.",
+        "en": "Audio, wearables, computers and accessories.",
+        "ar": "منتجات الصوت والتقنيات القابلة للارتداء والحواسيب والإكسسوارات."
+      },
+      "path": "urunler",
+      "icon": "storefront",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fa3ozb"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "5sur4im4fd",
+      "name": {
+        "tr": "Teslimat ve iade",
+        "en": "Delivery and returns",
+        "ar": "التسليم والاسترجاع"
+      },
+      "description": {
+        "tr": "Teslimat, iade, garanti ve cayma hakkı bilgileri.",
+        "en": "Delivery, returns, warranty and withdrawal information.",
+        "ar": "معلومات التسليم والاسترجاع والضمان وحق العدول."
+      },
+      "path": "teslimat",
+      "icon": "local_shipping",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "dxgrq5"
+        ],
+        "footer": []
+      },
+      "index": 1
+    }
+  ],
+  "desc": []
+}

@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": "5a3teh21sz",
+      "name": {
+        "tr": "Bilgisayar ve aksesuar",
+        "en": "Computers and accessories",
+        "ar": "الحواسيب والإكسسوارات"
+      },
+      "description": {
+        "tr": "Bilgisayar ve aksesuar",
+        "en": "Computers and accessories",
+        "ar": "الحواسيب والإكسسوارات"
+      },
+      "path": "bilgisayar",
+      "icon": "laptop",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fa3ozb"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "4j2eiez7kv",
+      "name": {
+        "tr": "Giyilebilir",
+        "en": "Wearables",
+        "ar": "القابلة للارتداء"
+      },
+      "description": {
+        "tr": "Giyilebilir",
+        "en": "Wearables",
+        "ar": "القابلة للارتداء"
+      },
+      "path": "giyilebilir",
+      "icon": "watch",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fa3ozb"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "x42kr84q6j",
+      "name": {
+        "tr": "Ses",
+        "en": "Audio",
+        "ar": "الصوت"
+      },
+      "description": {
+        "tr": "Ses",
+        "en": "Audio",
+        "ar": "الصوت"
+      },
+      "path": "ses",
+      "icon": "headphones",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "fa3ozb"
+        ],
+        "footer": []
+      },
+      "index": 2
+    }
+  ],
+  "desc": []
+}

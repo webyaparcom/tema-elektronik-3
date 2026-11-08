@@ -1,0 +1,39 @@
+{
+  "id": "5a3teh21sz",
+  "name": {
+    "tr": "Bilgisayar ve aksesuar",
+    "en": "Computers and accessories",
+    "ar": "الحواسيب والإكسسوارات"
+  },
+  "description": {
+    "tr": "Bilgisayar ve aksesuar",
+    "en": "Computers and accessories",
+    "ar": "الحواسيب والإكسسوارات"
+  },
+  "keyword": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "path": "bilgisayar",
+  "icon": "laptop",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "fa3ozb"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Bilgisayar ve aksesuar",
+    "en": "Computers and accessories",
+    "ar": "الحواسيب والإكسسوارات"
+  },
+  "date": "2026-11-05T23:18:16.940Z",
+  "update": "2026-11-05T23:44:17.829Z"
+}
