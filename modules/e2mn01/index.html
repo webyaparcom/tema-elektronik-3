@@ -411,6 +411,17 @@
     outline: 2px solid currentColor;
     outline-offset: 2px;
   }
+
+  /* 8 Kas 2026: logo gorseli acik zemin icin cizilmis (koyu yazi, saydam); koyu modda koyu header uzerinde kayboluyordu.
+     Koyu modda acik plaka; bilerek acik logolar (logo-acik) haric. */
+  @media (prefers-color-scheme: dark) {
+    .modulex-body-logo:not([src*="acik"]) {
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 8px;
+      box-sizing: content-box;
+    }
+  }
 </style>
 <script>
   /* PLAN-PRO F3: cikis dugmesi (data-mx-cikis) → MxStore.uye.cikis; rozet/gorunurluk MxStore tarafindan */
