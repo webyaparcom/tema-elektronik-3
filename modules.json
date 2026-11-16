@@ -50,7 +50,7 @@
       "category": "menu",
       "id": "e2mn01",
       "desing": {
-        "logo": "logo.png",
+        "logo": "logo-ust.png",
         "color": "var(--mx-site-text, #1b1b1b)",
         "colorhover": "#111111",
         "height": "78px",
@@ -83,7 +83,7 @@
           "ar": "مرحبًا بك!"
         },
         "girisUrl": "login",
-        "hesabimUrl": "hesabim",
+        "hesabimUrl": "login",
         "hesabimText": {
           "tr": "Hesabım",
           "en": "My Account",
@@ -142,7 +142,7 @@
         "gradient": "linear-gradient(135deg, #121212 0%, #26262B 60%, #34343A 130%)",
         "glow1": "#FF3B30",
         "glow2": "#F3F3F3",
-        "btnbg": "#FF3B30",
+        "btnbg": "#B8231B",
         "btncolor": "#FFFFFF",
         "badge": {
           "tr": "Yeni ürünler",
@@ -461,7 +461,8 @@
         "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
         "vurguText": "var(--mx-site-text, #111318)",
         "bgcolor": "var(--mx-site-text, #111318)",
-        "color": "var(--mx-site-bg, #ffffff)"
+        "color": "var(--mx-site-bg, #ffffff)",
+        "yaziRenk": "var(--mx-site-bg, #ffffff)"
       },
       "version": "1.1.0",
       "icon": "grid_on",
@@ -850,7 +851,7 @@
       "category": "footer",
       "id": "e2hz01",
       "desing": {
-        "color": "var(--mx-site-text, #1b1b1b)",
+        "color": "#1b1b1b",
         "bgcolor": "var(--mx-site-surface, #ffffff)",
         "pillhover": "#2196f3",
         "border_radius": "24px",

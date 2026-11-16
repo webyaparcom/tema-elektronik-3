@@ -797,7 +797,7 @@
   }
 
   .b0000-hero2-btn-primary {
-    background: #FF3B30;
+    background: #B8231B;
     color: #FFFFFF;
     box-shadow: 0 6px 22px rgba(0, 0, 0, 0.2);
   }
@@ -1957,7 +1957,7 @@
     padding: 10px 18px;
     border-radius: 24px;
     background: #fff;
-    color: var(--mx-site-text, #1b1b1b);
+    color: #1b1b1b;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
