@@ -401,13 +401,25 @@
       "index": 4
     },
     {
-      "name": "CTA Şerit 1",
-      "path": "cta-1",
+      "name": "Çağrı Izgara — koyu teknik çizgi zemini",
+      "path": "cagri-izgara-ters",
       "local": "body",
       "category": "cta",
       "id": "e2ca01",
       "desing": {
         "max": "1200px",
+        "btn1Text": {
+          "tr": "Ürünleri gör",
+          "en": "See products",
+          "ar": "شاهد المنتجات"
+        },
+        "btn1Url": "urunler",
+        "btn2Text": {
+          "tr": "Teslimat ve iade",
+          "en": "Delivery and returns",
+          "ar": "التسليم والاسترجاع"
+        },
+        "btn2Url": "teslimat",
         "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
         "btnbg": "var(--mx-site-surface, #ffffff)",
         "btncolor": "var(--mx-site-text, #1b1b1b)",
@@ -421,23 +433,50 @@
           "en": "All products carry a 2-year warranty; authorised-service and spare-part information is on the product page.",
           "ar": "جميع المنتجات بضمان سنتين؛ ومعلومات الخدمة المعتمدة وقطع الغيار في صفحة المنتج."
         },
-        "btn1Text": {
-          "tr": "Ürünleri gör",
-          "en": "See products",
-          "ar": "شاهد المنتجات"
-        },
-        "btn1Url": "urunler",
-        "btn2Text": {
-          "tr": "Teslimat ve iade",
-          "en": "Delivery and returns",
-          "ar": "التسليم والاسترجاع"
-        },
-        "btn2Url": "teslimat",
-        "stil": ""
+        "stil": "",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img": "",
+        "alt": "",
+        "ikon": "",
+        "not": "",
+        "number": "",
+        "numberText": "",
+        "waLabel": "",
+        "waTitle": "",
+        "waMessage": "",
+        "hours": "",
+        "hoursLabel": "",
+        "bg": "var(--mx-site-text, #111318)",
+        "text": "var(--mx-site-bg, #ffffff)",
+        "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+        "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+        "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+        "accentText": "var(--mx-site-text, #111318)",
+        "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+        "vurguText": "var(--mx-site-text, #111318)",
+        "bgcolor": "var(--mx-site-text, #111318)",
+        "color": "var(--mx-site-bg, #ffffff)"
       },
       "version": "1.1.0",
-      "icon": "campaign",
-      "index": 5
+      "icon": "grid_on",
+      "index": 5,
+      "description": "Koyu zeminde ince ızgara çizgileri (kenarlara doğru söner); ortada üst etiket, başlık, metin, düğmeler. Teknik/mühendislik hissi veren desenli koyu bölüm; renk bloğu değil doku. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık da düğme de yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      }
     },
     {
       "name": "E-ticaret Alt",
@@ -725,8 +764,11 @@
       "index": 6
     },
     {
-      "name": "Sepet Widget",
-      "path": "sepet-widget",
+      "name": {
+        "tr": "Sepet Widget 2",
+        "en": "Cart Widget 2"
+      },
+      "path": "sepet-widget-2",
       "local": "footer",
       "category": "e-commerce",
       "id": "e2sw01",
@@ -779,55 +821,27 @@
           "en": "Remove from cart",
           "ar": "إزالة من السلة"
         },
-        "favAddedText": {
-          "tr": "Favorilere eklendi",
-          "en": "Added to favorites",
-          "ar": "تمت الإضافة إلى المفضلة"
+        "decreaseText": {
+          "tr": "Adeti azalt",
+          "en": "Decrease quantity"
         },
-        "favRemovedText": {
-          "tr": "Favorilerden çıkarıldı",
-          "en": "Removed from favorites",
-          "ar": "تمت الإزالة من المفضلة"
-        },
-        "compareAddedText": {
-          "tr": "Karşılaştırma listesine eklendi",
-          "en": "Added to compare list",
-          "ar": "تمت الإضافة إلى قائمة المقارنة"
-        },
-        "compareRemovedText": {
-          "tr": "Karşılaştırma listesinden çıkarıldı",
-          "en": "Removed from compare list",
-          "ar": "تمت الإزالة من قائمة المقارنة"
-        },
-        "compareMaxText": {
-          "tr": "En fazla 4 ürün karşılaştırılabilir",
-          "en": "You can compare up to 4 products",
-          "ar": "يمكن مقارنة 4 منتجات كحد أقصى"
-        },
-        "quickViewTitle": {
-          "tr": "Hızlı Görünüm",
-          "en": "Quick View",
-          "ar": "نظرة سريعة"
-        },
-        "quickViewDetailText": {
-          "tr": "Ürün Detayı",
-          "en": "Product Details",
-          "ar": "تفاصيل المنتج"
-        },
-        "quickViewAddText": {
-          "tr": "Sepete Ekle",
-          "en": "Add to Cart",
-          "ar": "أضف إلى السلة"
-        },
-        "compareUrl": {
-          "tr": "karsilastirma",
-          "en": "compare",
-          "ar": "مقارنة"
+        "increaseText": {
+          "tr": "Adeti artır",
+          "en": "Increase quantity"
         }
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "icon": "shopping_cart",
-      "index": 7
+      "index": 7,
+      "description": {
+        "tr": "Guvenli sepet cekirdegi (mxCartV1 schema, escape, manipule fiyat ignore). Paket 597 P20.",
+        "en": "Secure cart core (mxCartV1 schema, escape, ignore manipulated price). Package 597 P20."
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      }
     },
     {
       "name": "E-ticaret Hızlı Erişim",
@@ -869,13 +883,13 @@
       "index": 8
     },
     {
-      "name": "İletişim",
-      "path": "contact-3",
+      "name": "İletişim Kartvizit — basılı kartvizit görünümü",
+      "path": "iletisim-kartvizit",
       "local": "body",
       "category": "contact",
       "id": "e2ct01",
       "desing": {
-        "color": "var(--mx-site-text, #1b1b1b)",
+        "color": "var(--mx-site-text, #111318)",
         "name": {
           "tr": "Bize ulaşın",
           "en": "Contact us",
@@ -883,10 +897,35 @@
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "adres": "",
+        "telefon": "",
+        "eposta": "",
+        "whatsapp": "",
+        "saat": "",
+        "haritaUrl": "",
+        "haritaGomme": "",
+        "waMesaj": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)"
       },
       "version": "1.0.0",
-      "icon": "contact_mail",
+      "icon": "badge",
       "data": [
         {
           "icon": "phone",
@@ -905,7 +944,19 @@
           }
         }
       ],
-      "index": 9
+      "index": 9,
+      "description": "Ortada yatay kartvizit: köşede marka adı ve vurgu şeridi, başlık, iki sütunlu kanal listesi; üzerine gelince kart hafifçe eğilir. İletişimi bir nesneye dönüştürür: tek kartta tüm bilgiler, kâğıt hissi veren çerçeve ve gölge. Kanallar desing'den (adres · telefon · WhatsApp · e-posta · saat) + data satırları; etiketler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Kanal yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (kanal türü ikondan da anlaşılır: mail · call · location_on · schedule)",
+          "deger": "dil sözlüğü (görünen değer, zorunlu; eski `text`)",
+          "url": "bağlantı (boşsa e-posta/telefon/haritadan türetilir)",
+          "baslik": "dil sözlüğü (kanal etiketi)"
+        }
+      }
     },
     {
       "name": "Maps",
@@ -927,12 +978,14 @@
       "index": 10
     },
     {
-      "name": "Tanıtım Modülü",
-      "path": "module-1",
+      "name": "Tanıtım Numaralı — başlık solda, büyük numaralı maddeler sağda",
+      "path": "tanitim-numarali",
       "local": "body",
       "category": "module",
       "id": "e2in01",
       "desing": {
+        "img": "elektronik-servis.webp",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
         "name": {
           "tr": "Tekno Nokta",
           "en": "Tekno Nokta",
@@ -965,8 +1018,6 @@
           "ar": "تُباع المنتجات بعلامة مطابقة CE."
         },
         "icon3": "fact_check",
-        "img": "elektronik-servis.webp",
-        "bgcolor": "var(--mx-site-surface, #ffffff)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
         "marginbotton": "20",
@@ -975,11 +1026,45 @@
           "en": "About us",
           "ar": "من نحن"
         },
-        "stil": ""
+        "stil": "",
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img2": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "version": "1.1.0",
-      "icon": "business",
-      "index": 11
+      "icon": "format_list_numbered",
+      "index": 11,
+      "description": "Sol sütunda yapışkan başlık, metin ve CTA; sağda maddeler dev numaralarla (01, 02…) satır satır, satırlar çizgiyle ayrılır. Maddeler tanıtımın ana gövdesi: büyük numaralı adımlar gibi okunur; görsel kullanmaz. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      }
     },
     {
       "name": "Siparişlerim (Pro)",
@@ -3688,9 +3773,11 @@
       "index": 24
     },
     {
-      "name": "Tanıtım Modülü",
+      "name": "Tanıtım Numaralı — başlık solda, büyük numaralı maddeler sağda",
       "local": "body",
       "desing": {
+        "img": "elektronik-paket.webp",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
         "stil": "",
         "name": {
           "tr": "Garanti, teslimat ve iade",
@@ -3724,8 +3811,6 @@
           "ar": "بيانات البطارية والشحن مذكورة في صفحة المنتج."
         },
         "icon3": "battery_charging_full",
-        "img": "elektronik-paket.webp",
-        "bgcolor": "#1e3046",
         "fontcolor": "#fff",
         "margintop": "20",
         "marginbotton": "20",
@@ -3733,19 +3818,47 @@
           "tr": "Garanti, teslimat ve iade",
           "en": "Warranty, delivery and returns",
           "ar": "الضمان والتسليم والاسترجاع"
-        }
+        },
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "img2": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "color": "var(--mx-site-text, #111318)"
       },
       "category": "module",
-      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
-      "version": "1.2.0",
-      "icon": "business",
+      "description": "Sol sütunda yapışkan başlık, metin ve CTA; sağda maddeler dev numaralarla (01, 02…) satır satır, satırlar çizgiyle ayrılır. Maddeler tanıtımın ana gövdesi: büyük numaralı adımlar gibi okunur; görsel kullanmaz. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "format_list_numbered",
       "veri": {
         "statik": true,
         "dinamik": false,
-        "kaynak": "desing/data"
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
       },
       "id": "dxgrq5",
-      "path": "module-1",
+      "path": "tanitim-numarali",
       "data": [],
       "index": 25
     },
