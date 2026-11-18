@@ -3,13 +3,14 @@
   "desing": {
     "color": "#1d3557",
     "bgcolor": "#f1f5f9",
+    "pillbg": "#ffffff",
     "pillhover": "#2196f3",
     "border_radius": "24px",
     "max": "1200px"
   },
   "category": "footer",
   "description": "E-ticaret sitelerinde sepet, siparişler, hesap ve iletişim sayfalarına yönlendiren yatay hızlı erişim şeridi. Material ikonlar, çok dilli başlıklar ve 768px altında kaydırılabilir yatay düzen sunar.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "icon": "bolt",
   "data": [
     {

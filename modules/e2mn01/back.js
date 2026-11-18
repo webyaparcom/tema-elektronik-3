@@ -44,3 +44,15 @@ html = html.replace(new RegExp("{{langhtml}}", "g"), langhtml);
 if (json.desing && json.desing.uyelik === false) {
   html = html.replace(/<a [^>]*data-mx-uye-goster[\s\S]*?<\/a>/g, "").replace(/<button [^>]*data-mx-uye-goster[\s\S]*?<\/button>/g, "");
 }
+
+/* 16 Kas 2026 (mcp:webmaker/20261116-113333-ovs8): desing.logoimg / logoimgs {dil: dosya} — header'a özel logo (ust-* · menu-2 ile aynı anahtar).
+   Boşsa desing.logo / {{logo}} aynen (geriye uyumlu); setting.logo değişmez → footer/SEO/og logosu aynı kalır. */
+(function () {
+  var d = (json && json.desing) || {};
+  var l = d.logoimgs;
+  var v = l && typeof l === "object" && l[json.lang] ? l[json.lang] : d.logoimg;
+  var s = typeof v === "string" ? v.trim() : "";
+  if (!s || !/^[^"'<>\s]+$/.test(s) || /^(javascript|vbscript|file|data):/i.test(s)) return;
+  var src = s.charAt(0) === "/" || /^https?:\/\//i.test(s) ? s : "/img/" + s;
+  html = html.replace(/\/img\/\{\{logo\}\}/g, function () { return src; });
+})();
